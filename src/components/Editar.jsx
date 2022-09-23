@@ -34,7 +34,7 @@ const Editar = ({tareas, conseguiDatos, setEditar, setListadoState}) => {
                         defaultValue={tareas.descripcion}
                         className='descripcion_editada'
             />
-            <input type='submit' value='Acticualizar' className='editar'/>
+            <input type='submit' value='Actualizar' className='editar'/>
         </form>
     </div>
   )
